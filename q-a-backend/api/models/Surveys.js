@@ -1,4 +1,3 @@
-
 module.exports = {
   attributes: {
     id: {
@@ -8,6 +7,12 @@ module.exports = {
     },
     contentSurvey: {
       type: "string"
+    },
+    description: {
+      type: "string"
+    },
+    closedAt: {
+      type: "datetime"
     },
     options: {
       collection: "options",
